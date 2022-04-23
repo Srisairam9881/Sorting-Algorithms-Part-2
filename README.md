@@ -75,7 +75,7 @@
 ![quick-sort-sorting-algorithm-featured-image](https://user-images.githubusercontent.com/80576654/164886922-8251bfe5-d292-4da0-bade-9931bb249939.jpg)
 
 <b>Working :–</b>
-####There are 2 Phases (3 major steps) in the Quick Sort Algorithm –
+#### There are 2 Phases (3 major steps) in the Quick Sort Algorithm –
 
 <b>a.Division Phase – Divide the array(list) into 2 halves by finding the pivot point to perform the partition of the array(list).</b>
 *  1.The in-place sorting happens in this partition process itself.
