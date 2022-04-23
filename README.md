@@ -132,22 +132,22 @@
 * Step 5 – Output each object from the input array into the sorted output array followed by decreasing its count by 1.
 * Step 6 – Print the sorted output array.
 
-## Couting Sort Algorithm –
-   1.take input_array[size]
-   2.create output_array[size]
-   3.take range (or no of unique elements)
-   4.create count_array[range] & initialize all values to 0
+### Couting Sort Algorithm –
+    1.take input_array[size]
+    2.create output_array[size]
+    3.take range (or no of unique elements)
+    4.create count_array[range] & initialize all values to 0
          1.for(int i=0 to i<range)
            1.count_array[i] = 0
-   5.Count each element & place it in the count_array
+    5.Count each element & place it in the count_array
       1.for(int i = 0 to i<size)
          1.++count_array[input_array[i]]
-   6.Modify count_array[] to store previous counts (cumulative)
+    6.Modify count_array[] to store previous counts (cumulative)
          1. for(int i = 1 to i < range)
               1.count_array[i]=count_array[i]+count_array[i-1]
-   7.Place elements from input_array[] to output_array[] using this count_array[] that has the actual positions of elements
+    7.Place elements from input_array[] to output_array[] using this count_array[] that has the actual positions of elements
                         1.for(int i=0 to i<size)
                            1. output_array[–count_array[input_array[i]]] = input_array[i]
-  8. Transfer sorted values from output_array[] to input_array[]
+   8. Transfer sorted values from output_array[] to input_array[]
             1.for(i=0 to i<size)
                 2.input_array[i]=output_array[i]
