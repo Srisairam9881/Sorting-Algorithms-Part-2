@@ -63,3 +63,7 @@
 * Inversion count problem
 * External sorting
 * E-commerce applications
+##
+
+# 2.Quick Sort Algorithm (with Example) with C++ Code | Sorting Algorithms | Data Structures & Algorithms
+<b style="color-blue";>Quick Sort Algorithm :-</b>
