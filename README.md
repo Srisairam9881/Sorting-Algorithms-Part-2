@@ -159,3 +159,29 @@
     Average	            O(n+k)
     Space Complexity	   O(max)
     Stability	          Yes
+ 
+ ### Time Complexities
+* There are mainly four main loops. (Finding the greatest value can be done outside the function.)
+   
+   for-loop	          time of counting
+   1st	                   O(max)
+   2nd                   	O(size)
+   3rd	                   O(max)
+   4th                   	O(size)
+   
+* Overall complexity = O(max)+O(size)+O(max)+O(size) = O(max+size)
+* <b>Worst Case Complexity: O(n+k)</b>
+* <b>Best Case Complexity: O(n+k)</b>
+* <b>Average Case Complexity: O(n+k)</b>
+* In all the above cases, the complexity is the same because no matter how the elements are placed in the array, the algorithm goes through n+k times.
+* There is no comparison between any elements, so it is better than comparison based sorting techniques. But, it is bad if the integers are very large because the array of that size should be made.
+
+* <b>Space Complexity</b>
+* The space complexity of Counting Sort is O(max). Larger the range of elements, larger is the space complexity.
+
+
+## Counting Sort Applications
+<b>Counting sort is used when:</b>
+* There are smaller integers with multiple counts.
+* Linear complexity is the need.
+##
