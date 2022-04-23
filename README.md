@@ -41,3 +41,20 @@
       merge(arr,l,m,r)
     }
     }
+
+### Merge Sort Complexity
+    Time              Complexity	 
+    Best	             O(n*log n)
+    Worst	            O(n*log n)
+    Average         	 O(n*log n)
+    Space Complexity	 O(n)
+    Stability	        Yes
+ ### Time Complexity
+* Best Case Complexity: O(n*log n)
+
+* Worst Case Complexity: O(n*log n)
+
+* Average Case Complexity: O(n*log n)
+
+### Space Complexity
+* The space complexity of merge sort is O(n).
