@@ -66,4 +66,4 @@
 ##
 
 # 2.Quick Sort Algorithm (with Example) with C++ Code | Sorting Algorithms | Data Structures & Algorithms
-<b style="color-blue";>Quick Sort Algorithm :-</b>
+<b>Quick Sort Algorithm :-</b>
