@@ -29,14 +29,14 @@
  * 1.Call merge function to merge the divided sub-arrays back to the original array.
  * 2.Perform sorting of these smaller sub arrays before merging them back.
 
-## Merge Sort Algorithm(Pseudo Code) –
-   mergeSort(arr[],l,r)  //arr is array, l is left, r is right
-   {
-   if(l<r)
-   {
+### Merge Sort Algorithm(Pseudo Code) –
+    mergeSort(arr[],l,r)  //arr is array, l is left, r is right
+    {
+    if(l<r)
+    {
       midpoint = (l+r)/2
       mergeSort(arr,l,m)
       mergeSort(arr,m+1,r)
       merge(arr,l,m,r)
+    }
    }
-  }
