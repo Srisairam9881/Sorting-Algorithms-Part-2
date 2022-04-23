@@ -151,3 +151,11 @@
     8. Transfer sorted values from output_array[] to input_array[]
             1.for(i=0 to i<size)
                 2.input_array[i]=output_array[i]
+
+### Complexity
+    Time                Complexity	 
+    Best	               O(n+k)
+    Worst              	O(n+k)
+    Average	            O(n+k)
+    Space Complexity	   O(max)
+    Stability	          Yes
