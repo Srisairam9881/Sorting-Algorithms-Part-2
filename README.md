@@ -10,6 +10,7 @@
 <b>Merge Sort :-</b>
 * Merge Sort Algorithm is a Divide & Conquer algorithm. It divides input array in two halves, calls itself for the two halves(recursively) and then merges the two sorted halves. A separate merge() function is used for merging two halves. Merge sort is one of the most efficient sorting algorithms.
 * Time Complexity: O(nlog(n))
+* Merge Sort is one of the most popular sorting algorithms that is based on <b>the principle of Divide and Conquer Algorithm.</b>
 
 ![merge-sort-algorithm-featured-image](https://user-images.githubusercontent.com/80576654/164886190-9339341f-d217-4e8c-913f-3765c1b384cd.jpg)
 
