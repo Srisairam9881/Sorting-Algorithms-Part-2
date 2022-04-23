@@ -58,3 +58,8 @@
 
 ### Space Complexity
 * The space complexity of merge sort is O(n).
+
+### Merge Sort Applications
+* Inversion count problem
+* External sorting
+* E-commerce applications
