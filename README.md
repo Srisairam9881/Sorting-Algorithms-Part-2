@@ -65,6 +65,7 @@
 * E-commerce applications
 ##
 
+
 # 2.Quick Sort Algorithm (with Example) with C++ Code | Sorting Algorithms | Data Structures & Algorithms
 <b>Quick Sort Algorithm :-</b>
 * Quick Sort Algorithm is a <b>Divide & Conquer algorithm</b>. It divides input array in two partitions, calls itself for the two partitions(recursively) and performs in-place sorting while doing so. A separate <b>partition()</b> function is used for performing this in-place sorting at every iteration. Quick sort is one of the most efficient sorting algorithms.
@@ -116,3 +117,37 @@
 * The programming language is good for recursion
 * Time complexity matters
 * Space complexity matters
+
+# 3.Counting Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
+<b>Count/Counting Sort :–</b>
+* Counting sort is a sorting algorithm that sorts the elements of an array by counting the number of occurrences of each unique element in the array. The count is stored in an auxiliary array and the sorting is done by mapping the count as an index of the auxiliary array.
+* <b>Time Complexity: O(n+k)</b> where n is the number of elements in input array and k is the range of input.
+* <b>Auxiliary Space: O(n+k)</b>
+
+<b>Working :–</b>
+* Step 1 – Take input array & range(no of unique integer values involved)
+* Step 2 – Create the output array of size same as input array. Create count array with size equal to the range & initialize values to 0.
+* Step 3 – Count each element in the input array and place the count at the appropriate index of the count array
+* Step 4 – Modify the count array by adding the previous counts(cumulative). The modified count array indicates the position of each object/element in the output array.
+* Step 5 – Output each object from the input array into the sorted output array followed by decreasing its count by 1.
+* Step 6 – Print the sorted output array.
+
+## Couting Sort Algorithm –
+   1.take input_array[size]
+   2.create output_array[size]
+   3.take range (or no of unique elements)
+   4.create count_array[range] & initialize all values to 0
+         1.for(int i=0 to i<range)
+           1.count_array[i] = 0
+   5.Count each element & place it in the count_array
+      1.for(int i = 0 to i<size)
+         1.++count_array[input_array[i]]
+   6.Modify count_array[] to store previous counts (cumulative)
+         1. for(int i = 1 to i < range)
+              1.count_array[i]=count_array[i]+count_array[i-1]
+   7.Place elements from input_array[] to output_array[] using this count_array[] that has the actual positions of elements
+                        1.for(int i=0 to i<size)
+                           1. output_array[–count_array[input_array[i]]] = input_array[i]
+  8. Transfer sorted values from output_array[] to input_array[]
+            1.for(i=0 to i<size)
+                2.input_array[i]=output_array[i]
