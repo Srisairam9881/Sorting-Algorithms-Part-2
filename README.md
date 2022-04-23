@@ -89,3 +89,24 @@
 ## Quick Sort Partition Function(Pseudo Code) –
 ![partition-function-in-quick-sort-algorithm](https://user-images.githubusercontent.com/80576654/164887039-d8397e29-1679-4cdd-950d-074ae60ddc3f.png)
 
+### Quicksort Complexity
+    Time              Complexity	 
+    Best	             O(n*log n)
+    Worst	            O(n2)
+    Average	          O(n*log n)
+    Space Complexity	 O(log n)
+    Stability        	No
+## 1. Time Complexities
+<b>Worst Case Complexity [Big-O]:</b> O(n2)</b>
+* It occurs when the pivot element picked is either the greatest or the smallest element.
+* This condition leads to the case in which the pivot element lies in an extreme end of the sorted array. One sub-array is always empty and another sub-array contains n - 1 elements. Thus, quicksort is called only on this sub-array.
+* However, the quicksort algorithm has better performance for scattered pivots.
+ 
+<b>Best Case Complexity [Big-omega]: O(n*log n)</b>
+* It occurs when the pivot element is always the middle element or near to the middle element. 
+ 
+<b>Average Case Complexity [Big-theta]: O(n*log n)</b>
+* It occurs when the above conditions do not occur.
+
+<b>2. Space Complexity</b>
+* The space complexity for quicksort is O(log n).
