@@ -71,3 +71,21 @@
 
 * >> Time Complexity: θ(nlog(n))
 * >> Space Complexity: O(log(n))
+
+![quick-sort-sorting-algorithm-featured-image](https://user-images.githubusercontent.com/80576654/164886922-8251bfe5-d292-4da0-bade-9931bb249939.jpg)
+
+<b>Working :–</b>
+####There are 2 Phases (3 major steps) in the Quick Sort Algorithm –
+
+<b>a.Division Phase – Divide the array(list) into 2 halves by finding the pivot point to perform the partition of the array(list).</b>
+*  1.The in-place sorting happens in this partition process itself.
+<b>b.Recursion Phase :–</b>
+*  1.Call Quick Sort on the left partition (sub-list)
+*  2.Call Quick Sort on the right partition (sub-list)
+
+## Quick Sort Algorithm(Pseudo Code) –
+![quick-sort-algorithm-pseudocode](https://user-images.githubusercontent.com/80576654/164887007-ccd30651-9362-4eec-b62a-1a7af6e11a8d.png)
+
+## Quick Sort Partition Function(Pseudo Code) –
+![partition-function-in-quick-sort-algorithm](https://user-images.githubusercontent.com/80576654/164887039-d8397e29-1679-4cdd-950d-074ae60ddc3f.png)
+
