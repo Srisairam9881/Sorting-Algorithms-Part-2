@@ -97,16 +97,22 @@
     Space Complexity	 O(log n)
     Stability        	No
 ## 1. Time Complexities
-<b>Worst Case Complexity [Big-O]:</b> O(n2)</b>
+<b>a.Worst Case Complexity [Big-O]:</b> O(n2)</b>
 * It occurs when the pivot element picked is either the greatest or the smallest element.
 * This condition leads to the case in which the pivot element lies in an extreme end of the sorted array. One sub-array is always empty and another sub-array contains n - 1 elements. Thus, quicksort is called only on this sub-array.
 * However, the quicksort algorithm has better performance for scattered pivots.
  
-<b>Best Case Complexity [Big-omega]: O(n*log n)</b>
+<b>b.Best Case Complexity [Big-omega]: O(n*log n)</b>
 * It occurs when the pivot element is always the middle element or near to the middle element. 
  
-<b>Average Case Complexity [Big-theta]: O(n*log n)</b>
+<b>c.Average Case Complexity [Big-theta]: O(n*log n)</b>
 * It occurs when the above conditions do not occur.
 
 <b>2. Space Complexity</b>
 * The space complexity for quicksort is O(log n).
+
+## Quicksort Applications
+<b>Quicksort algorithm is used when</b>
+* The programming language is good for recursion
+* Time complexity matters
+* Space complexity matters
