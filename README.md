@@ -67,3 +67,7 @@
 
 # 2.Quick Sort Algorithm (with Example) with C++ Code | Sorting Algorithms | Data Structures & Algorithms
 <b>Quick Sort Algorithm :-</b>
+* Quick Sort Algorithm is a Divide & Conquer algorithm. It divides input array in two partitions, calls itself for the two partitions(recursively) and performs in-place sorting while doing so. A separate partition() function is used for performing this in-place sorting at every iteration. Quick sort is one of the most efficient sorting algorithms.
+
+* >> Time Complexity: θ(nlog(n))
+* >> Space Complexity: O(log(n))
