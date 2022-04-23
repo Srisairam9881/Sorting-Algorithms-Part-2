@@ -148,6 +148,6 @@
     7.Place elements from input_array[] to output_array[] using this count_array[] that has the actual positions of elements
                         1.for(int i=0 to i<size)
                            1. output_array[–count_array[input_array[i]]] = input_array[i]
-   8. Transfer sorted values from output_array[] to input_array[]
+    8. Transfer sorted values from output_array[] to input_array[]
             1.for(i=0 to i<size)
                 2.input_array[i]=output_array[i]
