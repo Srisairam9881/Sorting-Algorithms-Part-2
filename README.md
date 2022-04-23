@@ -16,12 +16,12 @@
 
 ### Working :–
 <b>There are 3 Phases (4 major steps) in the Merge Sort Algorithm –</b>
-<b>1.Division Phase – Divide the array(list) into 2 halves by finding the midpoint of the array(list).</b>
-        1.Midpoint (m) = (left + right)/ 2
-        2.Here left is the starting index & right is the last index of the array(list)
-<b>2.Recursion Phase –</b>
-       1.Call Merge Sort on the left sub-array (sub-list)
-       2.Call Merge Sort on the right sub-array (sub-list)
-<b>3.Merge Phase –</b>
-      1.Call merge function to merge the divided sub-arrays back to the original array.
-      2.Perform sorting of these smaller sub arrays before merging them back.
+<b>a.Division Phase – Divide the array(list) into 2 halves by finding the midpoint of the array(list).</b>
+* 1.Midpoint (m) = (left + right)/ 2
+* 2.Here left is the starting index & right is the last index of the array(list)
+<b>b.Recursion Phase –</b>
+ * 1.Call Merge Sort on the left sub-array (sub-list)
+ * 2.Call Merge Sort on the right sub-array (sub-list)
+<b>c.Merge Phase –</b>
+ * 1.Call merge function to merge the divided sub-arrays back to the original array.
+ * 2.Perform sorting of these smaller sub arrays before merging them back.
