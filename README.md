@@ -124,6 +124,8 @@
 * <b>Time Complexity: O(n+k)</b> where n is the number of elements in input array and k is the range of input.
 * <b>Auxiliary Space: O(n+k)</b>
 
+![counting-sort-sorting-algorithm-with-code](https://user-images.githubusercontent.com/80576654/164888021-d1a5feaa-ac6d-4e98-9a55-91d1d821aef0.jpg)
+
 <b>Working :–</b>
 * Step 1 – Take input array & range(no of unique integer values involved)
 * Step 2 – Create the output array of size same as input array. Create count array with size equal to the range & initialize values to 0.
